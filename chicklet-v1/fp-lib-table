@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "chicklet-v1")(type "KiCad")(uri "${KIPRJMOD}/chicklet-v1.pretty")(options "")(descr ""))
+)

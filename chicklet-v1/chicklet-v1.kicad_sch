@@ -1,0 +1,75 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d23fbe98-d5e8-4416-9535-f408b7add0ef)
+
+  (paper "A4")
+
+  (title_block
+    (title "chicklet")
+    (date "2023-11-24")
+    (rev "3")
+    (company "EggsWorks, LLC")
+    (comment 1 "github.com/eggsworks/chicklet")
+    (comment 2 "a 38-key low profile split keyboard")
+    (comment 3 "chicklet v1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 20.955) (size 62.23 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13f61260-a66d-4d77-8d94-845a8cf0c839)
+    (property "Sheetname" "Matrix" (at 88.9 20.2434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "chicklet-v1-matrix.kicad_sch" (at 88.9 60.9096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "chicklet-v1"
+        (path "/d23fbe98-d5e8-4416-9535-f408b7add0ef" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 20.955 73.025) (size 13.97 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 268a93e8-fa23-43a8-af13-b9fb3dc1a806)
+    (property "Sheetname" "Mounting, Design, Etc." (at 20.955 72.3134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "chicklet-v1-misc.kicad_sch" (at 20.955 83.7696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "chicklet-v1"
+        (path "/d23fbe98-d5e8-4416-9535-f408b7add0ef" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 20.32 20.955) (size 62.23 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 919ab01d-7eb4-4062-9012-44dcffb54099)
+    (property "Sheetname" "MCU" (at 20.32 20.2434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "chicklet-v1-common.kicad_sch" (at 20.32 60.9096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "chicklet-v1"
+        (path "/d23fbe98-d5e8-4416-9535-f408b7add0ef" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
