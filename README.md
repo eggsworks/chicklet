@@ -4,6 +4,8 @@
 
 The Chicklet is a staggered-column, split, low-profile keyboard with 38 keys.
 
+Firmware is available in our [QMK fork](https://github.com/eggsworks/qmk_firmware/tree/chicklet-devel/keyboards/eggsworks/chicklet).
+
 ## Layout and keymap
 
 The Chicklet began as an egg58 with 10 keys removed from each half. Thus, the layout is quite similar. Spacing between
