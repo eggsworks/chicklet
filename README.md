@@ -1,10 +1,10 @@
 # Chicklet
 
-![render](images/chicklet-v1.png)
+![photo](images/chicklet-assembled.jpg)
 
-The Chicklet is a staggered-column, split, low-profile keyboard with 38 keys.
+The Chicklet is a staggered-column, split, low-profile, hotswap keyboard with 38 keys.
 
-Firmware is available in our [QMK fork](https://github.com/eggsworks/qmk_firmware/tree/chicklet-devel/keyboards/eggsworks/chicklet).
+Kits are available from [eggsworks](https://eggs.works/products/chicklet).
 
 ## Layout and keymap
 
@@ -32,9 +32,11 @@ This is the default keymap, but it is customizable.
 - 1 USB-C cable
 - 38 Choc switches (Choc V1 only)
 
+![render](images/chicklet-v1.png)
+
 ## Build instructions
 
-First, assemble all surface-mount components on the backs of the boards.
+First, assemble all surface-mount components on the backs of the boards. (Kits come with everything but the XIAO already soldered).
 
 Then, assemble each half by attaching the switchplate to the PCB with four M2 screws. Use a spacer in between.
 
@@ -42,9 +44,11 @@ Finally, insert switches, being careful to support sockets from the back during 
 
 Connect the two halves with USB-C, connect the Xiao to a PC, and flash the firmware.
 
+More detailed instructions are available on our [documentation site](https://docs.eggs.works/docs/build-guides/chicklet/).
+
 ## Firmware
 
-Firmware will be released soon. There are plans to support both QMK and ZMK.
+Firmware is available in our [QMK fork](https://github.com/eggsworks/qmk_firmware/tree/chicklet-devel/keyboards/eggsworks/chicklet). ZMK firmware is coming soon.
 
 ## Accessories
 
